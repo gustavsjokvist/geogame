@@ -1,0 +1,246 @@
+Read	https://en.wikipedia.org/wiki/List_of_international_rankings
+Production	https://en.wikipedia.org/wiki/List_of_largest_producing_countries_of_agricultural_commodities
+Apple	https://en.wikipedia.org/wiki/List_of_countries_by_apple_production
+Apricot	https://en.wikipedia.org/wiki/List_of_countries_by_apricot_production
+Artichoke	https://en.wikipedia.org/wiki/List_of_countries_by_artichoke_production
+Avocado	https://en.wikipedia.org/wiki/List_of_countries_by_avocado_production
+Barley	https://en.wikipedia.org/wiki/List_of_countries_by_barley_production
+Cereal	https://en.wikipedia.org/wiki/List_of_countries_by_cereal_production
+Cherry	https://en.wikipedia.org/wiki/List_of_countries_by_cherry_production
+Coconut	https://en.wikipedia.org/wiki/List_of_countries_by_coconut_production
+Coffee	https://en.wikipedia.org/wiki/List_of_countries_by_coffee_production
+Corn	https://en.wikipedia.org/wiki/List_of_countries_by_corn_production
+Cucumber	https://en.wikipedia.org/wiki/List_of_countries_by_cucumber_production
+Eggplant	https://en.wikipedia.org/wiki/List_of_countries_by_eggplant_production
+Fruit	https://en.wikipedia.org/wiki/List_of_countries_by_fruit_production
+Garlic	https://en.wikipedia.org/wiki/List_of_countries_by_garlic_production
+Grape	https://en.wikipedia.org/wiki/List_of_countries_by_grape_production
+Papaya	https://en.wikipedia.org/wiki/List_of_countries_by_papaya_production
+Pear	https://en.wikipedia.org/wiki/List_of_countries_by_pear_production
+Pineapple	https://en.wikipedia.org/wiki/List_of_countries_by_pineapple_production
+Plum	https://en.wikipedia.org/wiki/List_of_countries_by_plum_production
+Potato	https://en.wikipedia.org/wiki/List_of_countries_by_potato_production
+Rice	https://en.wikipedia.org/wiki/List_of_countries_by_rice_production
+Soybean	https://en.wikipedia.org/wiki/List_of_countries_by_soybean_production
+Tomato	https://en.wikipedia.org/wiki/List_of_countries_by_tomato_production
+Vegetables	https://en.wikipedia.org/wiki/List_of_countries_by_vegetable_production
+Wheat	https://en.wikipedia.org/wiki/List_of_countries_by_wheat_production
+Wine	https://en.wikipedia.org/wiki/List_of_wine-producing_regions#Countries
+Forest area	https://en.wikipedia.org/wiki/List_of_countries_by_forest_area
+Irrigated land area	https://en.wikipedia.org/wiki/List_of_countries_by_irrigated_land_area
+Meat	https://en.wikipedia.org/wiki/List_of_countries_by_meat_consumption
+Seafood	https://en.wikipedia.org/wiki/List_of_countries_by_seafood_consumption
+Milk	https://en.wikipedia.org/wiki/List_of_countries_by_milk_consumption_per_capita
+Beer	https://en.wikipedia.org/wiki/List_of_countries_by_beer_consumption_per_capita
+Electricity	https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption
+Oil	https://en.wikipedia.org/wiki/List_of_countries_by_oil_consumption
+Natural gas	https://en.wikipedia.org/wiki/List_of_countries_by_natural_gas_consumption
+Cocaine	https://en.wikipedia.org/wiki/List_of_countries_by_prevalence_of_cocaine_use
+Opiates	https://en.wikipedia.org/wiki/List_of_countries_by_prevalence_of_opiates_use
+List of countries by number of Academy Awards for Best International Feature Film	https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film
+List of World Heritage Sites by country	https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_by_country
+Global Competitiveness Report	https://en.wikipedia.org/wiki/Global_Competitiveness_Report
+Financial Development Index	https://en.wikipedia.org/wiki/Financial_Development_Index
+Gini index	https://en.wikipedia.org/wiki/Gini_index
+List of countries by income equality	https://en.wikipedia.org/wiki/List_of_countries_by_income_equality
+Bloomberg Innovation Index	https://en.wikipedia.org/wiki/Bloomberg_Innovation_Index
+Global Innovation Index	https://en.wikipedia.org/wiki/Global_Innovation_Index
+International Innovation Index	https://en.wikipedia.org/wiki/International_Innovation_Index
+Index of Economic Freedom	https://en.wikipedia.org/wiki/Index_of_Economic_Freedom
+Ease of doing business index	https://en.wikipedia.org/wiki/Ease_of_doing_business_index
+Indigo Index	https://en.wikipedia.org/wiki/Indigo_Index
+Corruption Perceptions Index	https://en.wikipedia.org/wiki/Corruption_Perceptions_Index
+List of countries by economic complexity	https://en.wikipedia.org/wiki/List_of_countries_by_economic_complexity
+List of countries by external debt	https://en.wikipedia.org/wiki/List_of_countries_by_external_debt
+List of countries by long-term unemployment rate	https://en.wikipedia.org/wiki/List_of_countries_by_unemployment_rate
+List of countries by net international investment position per capita	https://en.wikipedia.org/wiki/List_of_countries_by_net_international_investment_position_per_capita
+List of countries by average wage	https://en.wikipedia.org/wiki/List_of_countries_by_average_wage
+List of minimum wages by country	https://en.wikipedia.org/wiki/List_of_minimum_wages_by_country
+List of countries by public debt	https://en.wikipedia.org/wiki/List_of_countries_by_public_debt
+List of countries by wealth per adult	https://en.wikipedia.org/wiki/List_of_countries_by_wealth_per_adult
+List of countries by credit rating	https://en.wikipedia.org/wiki/List_of_countries_by_credit_rating
+List of countries by government budget	https://en.wikipedia.org/wiki/List_of_countries_by_government_budget
+List of countries by GNI (PPP) per capita	https://en.wikipedia.org/wiki/List_of_countries_by_GNI_(PPP)_per_capita
+List of countries by GNI (nominal, Atlas method) per capita	https://en.wikipedia.org/wiki/List_of_countries_by_GNI_(nominal,_Atlas_method)_per_capita
+Lists of countries by GDP	https://en.wikipedia.org/wiki/Lists_of_countries_by_GDP
+List of countries by GDP sector composition	https://en.wikipedia.org/wiki/List_of_countries_by_GDP_sector_composition
+List of countries by GDP (nominal)	https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
+List of countries by GDP (nominal) per capita	https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita
+List of countries by GDP (PPP) per capita	https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)_per_capita
+List of countries by GDP (PPP)	https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)
+List of countries by real GDP growth rate	https://en.wikipedia.org/wiki/List_of_countries_by_real_GDP_growth_rate
+List of countries by tax revenue to GDP ratio	https://en.wikipedia.org/wiki/List_of_countries_by_tax_revenue_to_GDP_ratio
+List of countries by largest historical GDP	https://en.wikipedia.org/wiki/List_of_countries_by_largest_historical_GDP
+List of countries by spending on education (% of GDP)	https://en.wikipedia.org/wiki/List_of_countries_by_spending_on_education_(%25_of_GDP)
+List of countries by 25- to 34-year-olds having a tertiary education degree	https://en.wikipedia.org/wiki/List_of_countries_by_25-_to_34-year-olds_having_a_tertiary_education_degree
+Global Social Mobility Index	https://en.wikipedia.org/wiki/Global_Social_Mobility_Index
+Education Index	https://en.wikipedia.org/wiki/Education_Index
+List of countries by literacy rate	https://en.wikipedia.org/wiki/List_of_countries_by_literacy_rate
+List of countries by tertiary education attainment	https://en.wikipedia.org/wiki/List_of_countries_by_tertiary_education_attainment
+List of countries by secondary education attainment	https://en.wikipedia.org/wiki/List_of_countries_by_secondary_education_attainment
+EF English Proficiency Index	https://en.wikipedia.org/wiki/EF_English_Proficiency_Index
+Programming Ability Index	https://en.wikipedia.org/wiki/Google_Code_Jam
+Webometrics Ranking of World Universities	https://en.wikipedia.org/wiki/Webometrics_Ranking_of_World_Universities
+List of Nobel laureates by country	https://en.wikipedia.org/wiki/List_of_Nobel_laureates_by_country
+QS World University Rankings	https://en.wikipedia.org/wiki/QS_World_University_Rankings
+List of countries by air pollution	https://en.wikipedia.org/wiki/List_of_countries_by_air_pollution
+List of countries by natural disaster risk	https://en.wikipedia.org/wiki/List_of_countries_by_natural_disaster_risk
+Climate Change Performance Index	https://en.wikipedia.org/wiki/Climate_Change_Performance_Index
+Environmental Performance Index	https://en.wikipedia.org/wiki/Environmental_Performance_Index
+Environmental Sustainability Index	https://en.wikipedia.org/wiki/Environmental_Sustainability_Index
+Environmental Vulnerability Index	https://en.wikipedia.org/wiki/Environmental_Vulnerability_Index
+Happy Planet Index	https://en.wikipedia.org/wiki/Happy_Planet_Index
+List of countries by ecological footprint	https://en.wikipedia.org/wiki/List_of_countries_by_ecological_footprint
+Sustainable Society Index	https://en.wikipedia.org/wiki/Sustainable_Society_Index
+List of countries by freshwater withdrawal	https://en.wikipedia.org/wiki/List_of_countries_by_freshwater_withdrawal
+List of countries by carbon dioxide emissions per capita	https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions_per_capita
+List of countries by carbon dioxide emissions	https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions
+List of countries by net exports	https://en.wikipedia.org/wiki/List_of_countries_by_net_exports
+List of countries by exports per capita	https://en.wikipedia.org/wiki/List_of_countries_by_exports_per_capita
+List of countries by aluminium exports	https://en.wikipedia.org/wiki/List_of_countries_by_aluminium_exports
+List of countries by merchandise exports	https://en.wikipedia.org/wiki/List_of_countries_by_merchandise_exports
+List of countries by service exports and imports	https://en.wikipedia.org/wiki/List_of_countries_by_service_exports_and_imports
+List of countries by natural gas exports	https://en.wikipedia.org/wiki/List_of_countries_by_natural_gas_exports
+List of countries by net oil exports	https://en.wikipedia.org/wiki/List_of_countries_by_net_oil_exports
+List of countries by oil exports	https://en.wikipedia.org/wiki/List_of_countries_by_oil_exports
+List of countries by refined petroleum exports	https://en.wikipedia.org/wiki/List_of_countries_by_refined_petroleum_exports
+List of countries by gold exports	https://en.wikipedia.org/wiki/List_of_countries_by_gold_exports
+List of countries by copper exports	https://en.wikipedia.org/wiki/List_of_countries_by_copper_exports
+List of countries by iron-ore exports	https://en.wikipedia.org/wiki/List_of_countries_by_iron-ore_exports
+List of countries by diamond exports	https://en.wikipedia.org/wiki/List_of_countries_by_diamond_exports
+List of countries by electricity exports	https://en.wikipedia.org/wiki/List_of_countries_by_electricity_exports
+List of countries by truck exports	https://en.wikipedia.org/wiki/List_of_countries_by_truck_exports
+List of countries by ship exports	https://en.wikipedia.org/wiki/List_of_countries_by_ship_exports
+List of countries by automotive component exports	https://en.wikipedia.org/wiki/List_of_countries_by_automotive_component_exports
+List of countries by aircraft component exports	https://en.wikipedia.org/wiki/List_of_countries_by_aircraft_component_exports
+List of countries by aircraft and spacecraft exports	https://en.wikipedia.org/wiki/List_of_countries_by_aircraft_and_spacecraft_exports
+List of countries by engine exports	https://en.wikipedia.org/wiki/List_of_countries_by_engine_exports
+List of countries by gas turbine exports	https://en.wikipedia.org/wiki/List_of_countries_by_gas_turbine_exports
+List of countries by computer exports	https://en.wikipedia.org/wiki/List_of_countries_by_computer_exports
+List of countries by integrated circuit exports	https://en.wikipedia.org/wiki/List_of_countries_by_integrated_circuit_exports
+List of countries by telephone exports	https://en.wikipedia.org/wiki/List_of_countries_by_telephone_exports
+List of countries by telecommunications equipment exports	https://en.wikipedia.org/wiki/List_of_countries_by_telecommunications_equipment_exports
+List of countries by pharmaceutical exports	https://en.wikipedia.org/wiki/List_of_countries_by_pharmaceutical_exports
+List of countries by maize exports	https://en.wikipedia.org/wiki/List_of_countries_by_maize_exports
+List of countries by wheat exports	https://en.wikipedia.org/wiki/List_of_countries_by_wheat_exports
+List of countries by coffee exports	https://en.wikipedia.org/wiki/List_of_countries_by_coffee_exports
+List of countries by cotton exports	https://en.wikipedia.org/wiki/List_of_countries_by_cotton_exports
+Good Country Index	https://en.wikipedia.org/wiki/Good_Country_Index
+Linguistic diversity index	https://en.wikipedia.org/wiki/Linguistic_diversity_index
+Henley Passport Index	https://en.wikipedia.org/wiki/Henley_Passport_Index
+List of political and geographic subdivisions by total area (all)	https://en.wikipedia.org/wiki/List_of_political_and_geographic_subdivisions_by_total_area_(all)
+List of countries and dependencies by area	https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area
+List of countries by health insurance coverage	https://en.wikipedia.org/wiki/List_of_countries_by_health_insurance_coverage
+List of countries by health expenditure covered by government	https://en.wikipedia.org/wiki/List_of_countries_by_health_expenditure_covered_by_government
+List of countries by hospital beds	https://en.wikipedia.org/wiki/List_of_countries_by_hospital_beds
+List of countries by cancer rate	https://en.wikipedia.org/wiki/List_of_countries_by_cancer_rate
+List of countries by risk of death from non-communicable disease	https://en.wikipedia.org/wiki/List_of_countries_by_risk_of_death_from_non-communicable_disease
+Euro health consumer index	https://en.wikipedia.org/wiki/Euro_health_consumer_index
+Global Hunger Index	https://en.wikipedia.org/wiki/Global_Hunger_Index
+List of countries by life expectancy	https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy
+List of countries by infant mortality rate	https://en.wikipedia.org/wiki/List_of_countries_by_infant_mortality_rate
+List of average human height worldwide	https://en.wikipedia.org/wiki/List_of_average_human_height_worldwide
+List of countries by body mass index	https://en.wikipedia.org/wiki/List_of_countries_by_body_mass_index
+List of countries by obesity rate	https://en.wikipedia.org/wiki/List_of_countries_by_obesity_rate
+List of countries by HIV/AIDS adult prevalence rate	https://en.wikipedia.org/wiki/List_of_countries_by_HIV/AIDS_adult_prevalence_rate
+List of countries by cigarette consumption per capita	https://en.wikipedia.org/wiki/List_of_countries_by_cigarette_consumption_per_capita
+List of countries by alcohol consumption per capita	https://en.wikipedia.org/wiki/List_of_countries_by_alcohol_consumption_per_capita
+List of countries by suicide rate	https://en.wikipedia.org/wiki/List_of_countries_by_suicide_rate
+List of the oldest people by country	https://en.wikipedia.org/wiki/List_of_the_oldest_people_by_country
+List of countries by electricity production	https://en.wikipedia.org/wiki/List_of_countries_by_electricity_production
+List of countries by electricity production from renewable sources	https://en.wikipedia.org/wiki/List_of_countries_by_electricity_production_from_renewable_sources
+List of countries by uranium production	https://en.wikipedia.org/wiki/List_of_countries_by_uranium_production
+List of countries by platinum production	https://en.wikipedia.org/wiki/List_of_countries_by_platinum_production
+List of countries by gold production	https://en.wikipedia.org/wiki/List_of_countries_by_gold_production
+List of countries by silver production	https://en.wikipedia.org/wiki/List_of_countries_by_silver_production
+List of countries by nickel production	https://en.wikipedia.org/wiki/List_of_countries_by_nickel_production
+List of countries by copper production	https://en.wikipedia.org/wiki/List_of_countries_by_copper_production
+List of countries by steel production	https://en.wikipedia.org/wiki/List_of_countries_by_steel_production
+List of countries by aluminium production	https://en.wikipedia.org/wiki/List_of_countries_by_aluminium_production
+List of countries by aluminium oxide production	https://en.wikipedia.org/wiki/List_of_countries_by_aluminium_oxide_production
+List of countries by bismuth production	https://en.wikipedia.org/wiki/List_of_countries_by_bismuth_production
+List of countries by mercury production	https://en.wikipedia.org/wiki/List_of_countries_by_mercury_production
+List of countries by bentonite production	https://en.wikipedia.org/wiki/List_of_countries_by_bentonite_production
+List of countries by feldspar production	https://en.wikipedia.org/wiki/List_of_countries_by_feldspar_production
+List of countries by lithium production	https://en.wikipedia.org/wiki/List_of_countries_by_lithium_production
+List of countries by palladium production	https://en.wikipedia.org/wiki/List_of_countries_by_palladium_production
+List of countries by iridium production	https://en.wikipedia.org/wiki/List_of_countries_by_iridium_production
+List of countries by manganese production	https://en.wikipedia.org/wiki/List_of_countries_by_manganese_production
+List of countries by magnesium production	https://en.wikipedia.org/wiki/List_of_countries_by_magnesium_production
+List of countries by tin production	https://en.wikipedia.org/wiki/List_of_countries_by_tin_production
+List of countries by zinc production	https://en.wikipedia.org/wiki/List_of_countries_by_zinc_production
+List of countries by salt production	https://en.wikipedia.org/wiki/List_of_countries_by_salt_production
+List of countries by silicon production	https://en.wikipedia.org/wiki/List_of_countries_by_silicon_production
+Lists of countries by mineral production	https://en.wikipedia.org/wiki/Lists_of_countries_by_mineral_production
+List of countries by oil production	https://en.wikipedia.org/wiki/List_of_countries_by_oil_production
+List of countries by natural gas production	https://en.wikipedia.org/wiki/List_of_countries_by_natural_gas_production
+List of countries by coal production	https://en.wikipedia.org/wiki/List_of_countries_by_coal_production
+List of countries by bauxite production	https://en.wikipedia.org/wiki/List_of_countries_by_bauxite_production
+List of countries by cement production	https://en.wikipedia.org/wiki/List_of_countries_by_cement_production
+List of aircraft carriers by country	https://en.wikipedia.org/wiki/List_of_aircraft_carriers_by_country
+List of countries by military expenditures	https://en.wikipedia.org/wiki/List_of_countries_by_military_expenditures
+List of countries by military expenditures per capita	https://en.wikipedia.org/wiki/List_of_countries_by_military_expenditures_per_capita
+List of countries by number of military and paramilitary personnel	https://en.wikipedia.org/wiki/List_of_countries_by_number_of_military_and_paramilitary_personnel
+Composite Index of National Capability	https://en.wikipedia.org/wiki/Composite_Index_of_National_Capability#Rankings
+Democracy Index (The Economist)	https://en.wikipedia.org/wiki/Democracy_Index
+Reporters Without Borders	https://en.wikipedia.org/wiki/Reporters_Without_Borders
+Press Freedom Index	https://en.wikipedia.org/wiki/Press_Freedom_Index
+List of countries by consultation on rule-making	https://en.wikipedia.org/wiki/List_of_countries_by_consultation_on_rule-making
+Global Terrorism Index	https://en.wikipedia.org/wiki/Global_Terrorism_Index
+Fragile States Index	https://en.wikipedia.org/wiki/Fragile_States_Index
+World Justice Project Rule of Law Index	https://en.wikipedia.org/wiki/World_Justice_Project#WJP_Rule_of_Law_Index_2022
+Presidentialism index	https://en.wikipedia.org/wiki/Presidential_system#Presidentialism_metrics
+Citizen-initiated component of direct popular vote index	https://en.wikipedia.org/wiki/Direct_democracy#Direct_democracy_by_country
+Democracy-Dictatorship Index	https://en.wikipedia.org/wiki/Democracy-Dictatorship_Index
+Gallagher index	https://en.wikipedia.org/wiki/Gallagher_index
+Democracy Ranking	https://en.wikipedia.org/wiki/Democracy_Ranking
+Coal	https://en.wikipedia.org/wiki/List_of_countries_by_coal_reserves
+Natural gas	https://en.wikipedia.org/wiki/List_of_countries_by_natural_gas_proven_reserves
+Oil	https://en.wikipedia.org/wiki/List_of_countries_by_proven_oil_reserves
+Thorium	https://en.wikipedia.org/wiki/List_of_countries_by_thorium_resources
+Uranium	https://en.wikipedia.org/wiki/List_of_countries_by_uranium_reserves
+Foreign-exchange reserves (excluding gold)	https://en.wikipedia.org/wiki/List_of_countries_by_foreign-exchange_reserves
+List of countries and dependencies by population	https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
+List of countries and dependencies by population density	https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population_density
+List of countries by guaranteed minimum income	https://en.wikipedia.org/wiki/List_of_countries_by_guaranteed_minimum_income
+List of countries by gun ownership	https://en.wikipedia.org/wiki/List_of_countries_by_gun_ownership
+List of countries by homeless population	https://en.wikipedia.org/wiki/List_of_countries_by_homeless_population
+List of countries by incarceration rate	https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate
+List of countries by intentional homicide rate	https://en.wikipedia.org/wiki/List_of_countries_by_intentional_homicide_rate
+List of countries by public spending in tertiary education	https://en.wikipedia.org/wiki/List_of_countries_by_public_spending_in_tertiary_education
+List of countries ranked by ethnic and cultural diversity level	https://en.wikipedia.org/wiki/List_of_countries_ranked_by_ethnic_and_cultural_diversity_level
+Where-to-be-born Index	https://en.wikipedia.org/wiki/Where-to-be-born_Index
+Gender Development Index	https://en.wikipedia.org/wiki/Gender_Development_Index
+Gender Inequality Index	https://en.wikipedia.org/wiki/Gender_Inequality_Index
+Global Gender Gap Report	https://en.wikipedia.org/wiki/Global_Gender_Gap_Report
+Global Organized Crime Index	https://en.wikipedia.org/wiki/Global_Organized_Crime_Index
+Global Retirement Index	https://en.wikipedia.org/wiki/Global_Retirement_Index
+Legatum Prosperity Index	https://en.wikipedia.org/wiki/Legatum_Prosperity_Index
+State of the World's Mothers report	https://en.wikipedia.org/wiki/Save_the_Children_State_of_the_World%27s_Mothers_report
+Social Progress Index	https://en.wikipedia.org/wiki/Social_Progress_Index
+Urbanization by country	https://en.wikipedia.org/wiki/Urbanization_by_country
+Human Development Index	https://en.wikipedia.org/wiki/Human_Development_Index
+Global Slavery Index	https://en.wikipedia.org/wiki/Global_Slavery_Index
+World Giving Index	https://en.wikipedia.org/wiki/World_Giving_Index
+World Happiness Report	https://en.wikipedia.org/wiki/World_Happiness_Report
+Boxing	https://en.wikipedia.org/wiki/List_of_current_boxing_rankings
+ICT Development Index	https://en.wikipedia.org/wiki/ICT_Development_Index
+List of countries by Internet connection speeds	https://en.wikipedia.org/wiki/List_of_countries_by_Internet_connection_speeds
+List of countries by 4G LTE penetration	https://en.wikipedia.org/wiki/List_of_countries_by_4G_LTE_penetration
+List of countries by mobile banking usage	https://en.wikipedia.org/wiki/List_of_countries_by_mobile_banking_usage
+List of countries by smartphone penetration	https://en.wikipedia.org/wiki/List_of_countries_by_smartphone_penetration
+List of countries by stem cell research trials	https://en.wikipedia.org/wiki/List_of_countries_by_stem_cell_research_trials
+List of countries by number of broadband Internet subscriptions	https://en.wikipedia.org/wiki/List_of_countries_by_number_of_broadband_Internet_subscriptions
+List of countries by number of Internet hosts	https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_hosts
+Space Competitiveness Index	https://en.wikipedia.org/wiki/Space_Competitiveness_Index
+Web Index	https://en.wikipedia.org/wiki/Web_index
+Logistics Performance Index	https://en.wikipedia.org/wiki/Logistics_Performance_Index
+List of countries by rail usage	https://en.wikipedia.org/wiki/List_of_countries_by_rail_usage
+List of countries by rail transport network size	https://en.wikipedia.org/wiki/List_of_countries_by_rail_transport_network_size
+List of countries by traffic-related death rate	https://en.wikipedia.org/wiki/List_of_countries_by_traffic-related_death_rate
+List of countries by vehicles per capita	https://en.wikipedia.org/wiki/List_of_countries_by_vehicles_per_capita
+List of countries by waterways length	https://en.wikipedia.org/wiki/List_of_countries_by_waterways_length
+Index number	https://en.wikipedia.org/wiki/Index_number
+List of globalization-related indices	https://en.wikipedia.org/wiki/List_of_globalization-related_indices
+List of freedom indices	https://en.wikipedia.org/wiki/List_of_freedom_indices
+List of democracy indices	https://en.wikipedia.org/wiki/List_of_democracy_indices

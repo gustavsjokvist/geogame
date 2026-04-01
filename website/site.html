@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="app-shell">
+        <section class="hero-card">
+            <div class="hero-glow hero-glow-left"></div>
+            <div class="hero-glow hero-glow-right"></div>
+            <div class="hero-copy">
+                <p class="eyebrow">Data pulled from Wikipedia ranking lists</p>
+                <h1>Wikipedia Ranking Game</h1>
+                <p class="hero-text">
+                    Match five countries to the five categories where they rank best. Lower total score wins, and every round only uses countries shared across all chosen lists.
+                </p>
+                <div class="hero-note">
+                    <span class="hero-note-label">How it works</span>
+                    <span>Five categories first. Then five countries that appear in every one of them.</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <button id="newRoundButton" class="primary-button">New Round</button>
+                <div class="meta-pill" id="statusPill">Loading rankings...</div>
+            </div>
+        </section>
+
+        <section class="board-card">
+            <div class="board-header">
+                <div class="board-copy">
+                    <p class="section-label">Mission</p>
+                    <h2 id="roundTitle">Preparing game...</h2>
+                    <p class="board-subtext">Match each country to the category where it should rank closest to #1.</p>
+                </div>
+                <div class="score-panel">
+                    <div class="score-box">
+                        <span class="score-label">Total rank</span>
+                        <strong id="currentScore">0</strong>
+                    </div>
+                    <div class="score-box">
+                        <span class="score-label">Locked in</span>
+                        <strong id="assignmentCount">0 / 5</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-strip">
+                <div class="mission-label">Round categories</div>
+                <div id="missionTags" class="mission-tags"></div>
+            </div>
+
+            <div class="playbar">
+                <div class="instructions" id="instructions">
+                    Pick a country from the left, then click a category on the right.
+                </div>
+                <div class="progress-card">
+                    <div class="progress-top">
+                        <span class="progress-label">Round progress</span>
+                        <span id="progressText" class="progress-text">0 of 5 placed</span>
+                    </div>
+                    <div class="progress-track">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-layout">
+                <section class="panel countries-panel">
+                    <div class="panel-head">
+                        <p class="section-label">Country Deck</p>
+                        <h3>Choose your next piece</h3>
+                    </div>
+                    <div id="selectedCountryCard" class="selected-country-card">
+                        <div class="selected-country-flag">?</div>
+                        <div class="selected-country-copy">
+                            <p class="selected-country-label">Current pick</p>
+                            <h4>Select a country</h4>
+                            <p>Then assign it to the category where it should score best.</p>
+                        </div>
+                    </div>
+                    <div id="countriesGrid" class="countries-grid"></div>
+                </section>
+
+                <section class="panel categories-panel">
+                    <div class="panel-head">
+                        <p class="section-label">Target Board</p>
+                        <h3>Lock each country into one slot</h3>
+                    </div>
+                    <div id="categoriesGrid" class="categories-grid"></div>
+                </section>
+            </div>
+        </section>
+
+        <section class="results-card hidden" id="resultsCard">
+            <div class="results-header">
+                <div>
+                    <p class="section-label">Results</p>
+                    <h2 id="resultsTitle">Round complete</h2>
+                </div>
+                <button id="playAgainButton" class="secondary-button">Play Another Round</button>
+            </div>
+
+            <div class="results-summary">
+                <div class="summary-box">
+                    <span class="score-label">Your score</span>
+                    <strong id="finalScore">0</strong>
+                </div>
+                <div class="summary-box">
+                    <span class="score-label">Optimal score</span>
+                    <strong id="optimalScore">0</strong>
+                </div>
+                <div class="summary-box">
+                    <span class="score-label">Gap</span>
+                    <strong id="scoreGap">0</strong>
+                </div>
+            </div>
+
+            <div id="resultsGrid" class="results-grid"></div>
+        </section>
+    </main>
+
+    <script type="module" src="game.js"></script>
+</body>
+</html>
