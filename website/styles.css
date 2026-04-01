@@ -308,6 +308,26 @@ button {
     gap: 4px;
 }
 
+.mission-tag-icon,
+.category-icon,
+.result-icon {
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 999px;
+    display: inline-grid;
+    place-items: center;
+    background: rgba(221, 180, 104, 0.14);
+    border: 1px solid rgba(221, 180, 104, 0.18);
+    color: var(--accent-strong);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.mission-tag-icon {
+    margin-bottom: 2px;
+}
+
 .mission-tag.done {
     border-color: rgba(128, 212, 167, 0.38);
     background: rgba(128, 212, 167, 0.12);
@@ -403,14 +423,14 @@ button {
 }
 
 .selected-country-flag {
-    width: 68px;
-    height: 68px;
-    border-radius: 18px;
+    width: 60px;
+    height: 48px;
+    border-radius: 14px;
     display: grid;
     place-items: center;
-    font-size: 2rem;
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.08);
+    overflow: hidden;
 }
 
 .selected-country-copy h4 {
@@ -458,23 +478,73 @@ button {
         rgba(9, 22, 31, 0.94);
 }
 
-.country-chip::after {
-    content: "";
+.country-chip-glow {
     position: absolute;
     inset: auto -40px -40px auto;
     width: 90px;
     height: 90px;
     background: radial-gradient(circle, rgba(221, 180, 104, 0.15), transparent 72%);
+    pointer-events: none;
 }
 
 .country-flag {
-    font-size: 1.65rem;
-    width: 2rem;
+    width: 2.2rem;
+    height: 1.65rem;
     text-align: center;
+    display: inline-grid;
+    place-items: center;
+    flex: 0 0 auto;
 }
 
 .country-name {
     font-size: 1.04rem;
+}
+
+.deck-flag-image,
+.selected-flag-image,
+.inline-flag-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.22);
+}
+
+.deck-flag-image {
+    border-radius: 6px;
+}
+
+.selected-flag-image {
+    border-radius: 8px;
+}
+
+.inline-flag-image {
+    width: 26px;
+    height: 19px;
+    border-radius: 4px;
+    flex: 0 0 auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.flag-fallback {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--ink-soft);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.inline-flag-image.flag-fallback {
+    width: 26px;
+    height: 19px;
+    font-size: 0.52rem;
+    border-radius: 4px;
+    flex: 0 0 auto;
 }
 
 .category-card {
@@ -514,6 +584,14 @@ button {
     opacity: 0.6;
 }
 
+.category-topline,
+.result-head {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 12px;
+    align-items: start;
+}
+
 .category-title {
     font-size: 1.16rem;
     font-weight: 700;
@@ -547,6 +625,10 @@ button {
 .assignment-country {
     font-size: 1.02rem;
     font-weight: 700;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    min-width: 0;
 }
 
 .assignment-rank {
@@ -572,6 +654,10 @@ button {
     border: 1px solid var(--line);
 }
 
+.result-head {
+    margin-bottom: 12px;
+}
+
 .result-category {
     font-weight: 700;
     margin-bottom: 4px;
@@ -588,6 +674,34 @@ button {
     gap: 10px;
     align-items: center;
     padding: 8px 0;
+}
+
+.result-value {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    min-width: 0;
+}
+
+.result-card,
+.mission-tag,
+.category-card,
+.country-chip,
+.selected-country-card {
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+.country-chip.selected,
+.selected-country-card.active {
+    transform: translateY(-1px) scale(1.01);
+}
+
+.category-card.ready:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+}
+
+.category-card.filled {
+    box-shadow: inset 0 0 0 1px rgba(128, 212, 167, 0.14);
 }
 
 .result-row.muted {

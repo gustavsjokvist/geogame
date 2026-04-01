@@ -1,10 +1,44 @@
-import { COUNTRY_FLAGS } from './countries.js';
+import { COUNTRY_FLAGS, getCountryFlagUrl } from './countries.js';
 
 const ROUND_SIZE = 5;
 const MIN_CATEGORY_COUNTRIES = 20;
 const MAX_ROUND_ATTEMPTS = 400;
 
 const COUNTRY_NAME_SET = new Set(Object.keys(COUNTRY_FLAGS));
+
+const CATEGORY_ICONS = {
+    avocado: 'A',
+    coffee: 'C',
+    pear: 'P',
+    soybean: 'S',
+    wheat: 'W',
+    forest_area: 'F',
+    irrigated_land_area: 'I',
+    coal_production: 'C',
+    oil_production: 'O',
+    electricity_production: 'E',
+    electricity_exports: 'X',
+    aluminium_production: 'A',
+    carbon_dioxide_emissions: 'CO2',
+    external_debt: 'D',
+    gdp_ppp: 'GDP',
+    gdp_nominal: 'GDP',
+    countries_and_dependencies_by_population: 'POP',
+    countries_and_dependencies_by_population_density: 'DEN',
+    vehicles: 'V',
+    world_heritage_sites_by_country: 'WH',
+    nobel_laureates_by_country: 'N',
+    rail_transport_network_size: 'R',
+    internet_connection_speeds: 'NET',
+    literacy_rate: 'L',
+    life_expectancy: 'LE',
+    education_index: 'EDU',
+    urbanization_by_country: 'URB',
+    alcohol_consumption: 'ALC',
+    body_mass_index: 'BMI',
+    average_wage: 'WAGE',
+    minimum_wages_by_country: 'MIN'
+};
 
 const CATEGORY_CONFIG = {
     avocado: {
@@ -215,6 +249,19 @@ const state = {
     selectedCountry: null
 };
 
+const audio = {
+    main: new Audio('audio/main.mp3'),
+    win: new Audio('audio/win.mp3'),
+    brasil: new Audio('audio/brasil.mp3'),
+    initialized: false
+};
+
+audio.main.loop = true;
+audio.main.volume = 0.35;
+audio.win.volume = 0.7;
+audio.brasil.loop = true;
+audio.brasil.volume = 0.55;
+
 const ui = {
     statusPill: document.getElementById('statusPill'),
     roundTitle: document.getElementById('roundTitle'),
@@ -283,6 +330,54 @@ function shuffle(items) {
 
 function sample(items, count) {
     return shuffle(items).slice(0, count);
+}
+
+function getCountryInitials(country) {
+    return country
+        .split(/\s+/)
+        .filter(Boolean)
+        .slice(0, 2)
+        .map(part => part[0])
+        .join('')
+        .toUpperCase();
+}
+
+function getCountryFlagMarkup(country, className = 'flag-image') {
+    const url = getCountryFlagUrl(country);
+    if (url) {
+        return `<img class="${className}" src="${url}" alt="Flag of ${country}" loading="lazy">`;
+    }
+
+    return `<span class="flag-fallback ${className}">${getCountryInitials(country)}</span>`;
+}
+
+function getCategoryIcon(categoryKey) {
+    return CATEGORY_ICONS[categoryKey] || 'MAP';
+}
+
+function ensureAudioStarted() {
+    if (audio.initialized) {
+        return;
+    }
+
+    audio.initialized = true;
+    audio.main.play().catch(() => {
+        audio.initialized = false;
+    });
+}
+
+function stopBrasilAudio() {
+    audio.brasil.pause();
+    audio.brasil.currentTime = 0;
+}
+
+function syncSelectionAudio() {
+    if (state.selectedCountry === 'Brazil') {
+        audio.brasil.play().catch(() => {});
+        return;
+    }
+
+    stopBrasilAudio();
 }
 
 function buildCategoryDataset(rawData) {
@@ -419,6 +514,7 @@ function renderMissionTags() {
         }
 
         tag.innerHTML = `
+            <span class="mission-tag-icon">${getCategoryIcon(category.key)}</span>
             <span class="mission-tag-title">${category.label}</span>
             <span class="mission-tag-detail">${category.detail}</span>
         `;
@@ -443,7 +539,7 @@ function renderSelectedCountryCard() {
 
     ui.selectedCountryCard.classList.add('active');
     ui.selectedCountryCard.innerHTML = `
-        <div class="selected-country-flag">${COUNTRY_FLAGS[state.selectedCountry] || '-'}</div>
+        <div class="selected-country-flag">${getCountryFlagMarkup(state.selectedCountry, 'selected-flag-image')}</div>
         <div class="selected-country-copy">
             <p class="selected-country-label">Current pick</p>
             <h4>${state.selectedCountry}</h4>
@@ -465,11 +561,14 @@ function renderCountries() {
 
         button.type = 'button';
         button.innerHTML = `
-            <span class="country-flag">${COUNTRY_FLAGS[country] || '-'}</span>
+            <span class="country-flag">${getCountryFlagMarkup(country, 'deck-flag-image')}</span>
             <span class="country-name">${country}</span>
+            <span class="country-chip-glow"></span>
         `;
         button.addEventListener('click', () => {
+            ensureAudioStarted();
             state.selectedCountry = state.selectedCountry === country ? null : country;
+            syncSelectionAudio();
             renderBoard();
         });
 
@@ -501,14 +600,19 @@ function renderCategories() {
 
         const detailMarkup = assignment
             ? `
-                <div class="assignment-country">${COUNTRY_FLAGS[assignment.country] || '-'} ${assignment.country}</div>
+                <div class="assignment-country">${getCountryFlagMarkup(assignment.country, 'inline-flag-image')} ${assignment.country}</div>
                 <div class="assignment-rank">Rank #${assignment.rank}</div>
             `
             : '<div class="assignment-placeholder">Click to assign selected country</div>';
 
         card.innerHTML = `
-            <div class="category-title">${category.label}</div>
-            <div class="category-detail">${category.detail}</div>
+            <div class="category-topline">
+                <div class="category-icon">${getCategoryIcon(category.key)}</div>
+                <div>
+                    <div class="category-title">${category.label}</div>
+                    <div class="category-detail">${category.detail}</div>
+                </div>
+            </div>
             <div class="assignment-slot">${detailMarkup}</div>
         `;
 
@@ -536,6 +640,8 @@ function assignSelectedCountry(categoryKey) {
         return;
     }
 
+    ensureAudioStarted();
+
     if (state.currentRound.assignments[categoryKey]) {
         return;
     }
@@ -553,6 +659,7 @@ function assignSelectedCountry(categoryKey) {
     };
 
     state.selectedCountry = null;
+    stopBrasilAudio();
     renderBoard();
 
     if (isRoundComplete()) {
@@ -612,6 +719,9 @@ function showResults() {
         };
     });
 
+    audio.win.currentTime = 0;
+    audio.win.play().catch(() => {});
+
     ui.resultsCard.classList.remove('hidden');
     ui.finalScore.textContent = state.currentRound.score;
     ui.optimalScore.textContent = optimal.total;
@@ -627,16 +737,21 @@ function showResults() {
         const card = document.createElement('article');
         card.className = 'result-card';
         card.innerHTML = `
-            <div class="result-category">${assignment.category}</div>
-            <div class="result-detail">${state.currentRound.categories[index].detail}</div>
+            <div class="result-head">
+                <span class="result-icon">${getCategoryIcon(state.currentRound.categories[index].key)}</span>
+                <div>
+                    <div class="result-category">${assignment.category}</div>
+                    <div class="result-detail">${state.currentRound.categories[index].detail}</div>
+                </div>
+            </div>
             <div class="result-row">
                 <span class="result-label">You</span>
-                <span class="result-value">${COUNTRY_FLAGS[assignment.country] || '-'} ${assignment.country}</span>
+                <span class="result-value">${getCountryFlagMarkup(assignment.country, 'inline-flag-image')} ${assignment.country}</span>
                 <span class="result-rank">#${assignment.rank}</span>
             </div>
             <div class="result-row muted">
                 <span class="result-label">Best</span>
-                <span class="result-value">${COUNTRY_FLAGS[optimalAssignment.country] || '-'} ${optimalAssignment.country}</span>
+                <span class="result-value">${getCountryFlagMarkup(optimalAssignment.country, 'inline-flag-image')} ${optimalAssignment.country}</span>
                 <span class="result-rank">#${optimalAssignment.rank}</span>
             </div>
         `;
@@ -652,6 +767,7 @@ function startRound() {
 
     state.currentRound = buildRound();
     state.selectedCountry = null;
+    stopBrasilAudio();
 
     ui.resultsCard.classList.add('hidden');
     ui.statusPill.textContent = `${state.categories.length} curated ranking lists ready`;
@@ -685,5 +801,8 @@ async function loadGame() {
 
 ui.newRoundButton.addEventListener('click', startRound);
 ui.playAgainButton.addEventListener('click', startRound);
+
+window.addEventListener('pointerdown', ensureAudioStarted, { once: true });
+window.addEventListener('keydown', ensureAudioStarted, { once: true });
 
 loadGame();

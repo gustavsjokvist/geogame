@@ -199,6 +199,43 @@ export const COUNTRY_FLAGS = {
     "Solomon Islands": "🇸🇧"
 };
 
+export function getCountryFlagCode(countryName) {
+    const emoji = COUNTRY_FLAGS[countryName];
+    if (!emoji) {
+        return null;
+    }
+
+    const characters = Array.from(emoji);
+    if (characters.length !== 2) {
+        return null;
+    }
+
+    const base = 0x1f1e6;
+    const code = characters.map(character => {
+        const offset = character.codePointAt(0) - base;
+        if (offset < 0 || offset > 25) {
+            return null;
+        }
+
+        return String.fromCharCode(65 + offset);
+    });
+
+    if (code.includes(null)) {
+        return null;
+    }
+
+    return code.join('');
+}
+
+export function getCountryFlagUrl(countryName) {
+    const code = getCountryFlagCode(countryName);
+    if (!code) {
+        return null;
+    }
+
+    return `https://flagcdn.com/48x36/${code.toLowerCase()}.png`;
+}
+
 // Category mapping from CSV headers to game categories
 export const CATEGORY_MAPPING = {
     "Population": "population",
